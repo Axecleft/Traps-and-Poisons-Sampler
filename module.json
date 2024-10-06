@@ -1,0 +1,55 @@
+{
+  "id": "traps-and-poisons-sampler",
+  "title": "Traps and Poisons Sampler",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11.315",
+    "maximum": "11.315"
+  },
+  "authors": [
+    {
+      "name": "Axecleft",
+      "discord": "axecleft",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "traps",
+      "label": "Traps",
+      "path": "packs/traps",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "poisons",
+      "label": "Poisons",
+      "path": "packs/poisons",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    },
+    {
+      "name": "traps-support-items",
+      "label": "Traps-Support items",
+      "path": "packs/traps-support-items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    }
+  ]
+}
